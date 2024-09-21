@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <!-- Set the character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #example1 {
+          
+            height: 30rem;
+            border: 1rem solid rgba(0, 0, 0, .1);
+        }
+      
+    </style>
+
+    <!-- Set the title of the webpage -->
+    <title>Document</title>
+  
+</head>
+
+<body>
+  
+    <!-- Container for embedding the PDF -->
+    <div id="example1"></div>
+
+    <!-- Include the PDFObject library -->
+    <script src="./node_modules/pdfobject/pdfobject.js"></script>
+
+    <script>
+      
+        // Check if the browser supports PDF embedding
+        if (PDFObject.supportsPDFs) {
+          
+            // If supported, embed the PDF in the specified container
+            PDFObject.embed("https://drive.google.com/file/d/1D5vYIrof4OwshFCEZwRfPGorSu_Ey3HF/view?usp=sharing", "#example1");
+          
+        } else {
+          
+            // If not supported, display a fallback message
+            document.getElementById("example1").innerText = "Hello";
+          
+        }
+      
+    </script>
+  
+</body>
+
+</html>
+

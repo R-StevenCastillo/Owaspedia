@@ -1,0 +1,142 @@
+[
+    {
+      "question": "¿Qué es la autenticación multifactor (MFA)?",
+      "options": [
+        "Un sistema que requiere múltiples formas de verificación para acceder a una cuenta.",
+        "Un método que permite a los usuarios ingresar con una sola contraseña.",
+        "Un tipo de firewall avanzado.",
+        "Un protocolo de encriptación de datos."
+      ],
+      "answer": "Un sistema que requiere múltiples formas de verificación para acceder a una cuenta."
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un factor utilizado en la autenticación multifactor?",
+      "options": [
+        "Algo que sabes (contraseña)", 
+        "Algo que tienes (token o dispositivo)", 
+        "Algo que deseas (objetivos personales)", 
+        "Algo que eres (huella digital)"],
+      "answer": "Algo que deseas (objetivos personales)"
+    },
+    {
+      "question": "¿Qué es la ingeniería social?",
+      "options": [
+        "Un software que encripta datos personales.", 
+        "Un tipo de ataque físico contra servidores.", 
+        "Un programa de autenticación multifactor.", 
+        "Un ataque que utiliza técnicas de manipulación psicológica para obtener información confidencial."],
+      "answer": "Un ataque que utiliza técnicas de manipulación psicológica para obtener información confidencial."
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un ejemplo de un ataque de ingeniería social?",
+      "options": [
+        "Criptografía de clave pública", 
+        "Vishing", 
+        "Uso de certificados SSL", 
+        "Monitorización del tráfico de red"],
+      "answer": "Vishing"
+    },
+    {
+      "question": "¿Qué técnica de ingeniería social implica el uso de correos electrónicos fraudulentos para obtener información confidencial?",
+      "options": [
+        "Smishing", 
+        "Shoulder surfing", 
+        "Phishing", 
+        "Pretexting"],
+      "answer": "Phishing"
+    },
+    {
+      "question": "¿Cuál de las siguientes NO es una técnica de ingeniería social?",
+      "options": [
+        "Baiting",
+        "Spear phishing",
+        "VPN",
+        "Whaling"
+      ],
+      "answer": "VPN"
+    },
+    {
+      "question": "¿Qué es el phishing?",
+      "options": [
+        "Un método para rastrear direcciones IP", 
+        "Un tipo de cifrado de datos", 
+        "Un método para enviar correos electrónicos fraudulentos que parecen provenir de fuentes legítimas", 
+        "Un tipo de firewall avanzado"],
+      "answer": "Un método para enviar correos electrónicos fraudulentos que parecen provenir de fuentes legítimas"
+    },
+    {
+      "question": "¿Qué tipo de phishing se dirige a individuos específicos en lugar de a un público amplio?",
+      "options": [
+        "Phishing masivo", 
+        "Spear phishing", 
+        "Vishing", 
+        "Whaling"],
+      "answer": "Spear phishing"
+    },
+    {
+      "question": "¿Qué es un ataque de intermediario (MITM)?",
+      "options": [
+        "Un ataque en el que un atacante intercepta y altera la comunicación entre dos partes.", 
+        "Un método para proteger contraseñas mediante autenticación multifactor.", 
+        "Un tipo de ransomware.", 
+        "Un firewall que bloquea ataques externos."],
+      "answer": "Un ataque en el que un atacante intercepta y altera la comunicación entre dos partes."
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un método utilizado en un ataque MITM?",
+      "options": [
+        "Spoofing de IP", 
+        "VPN segura", 
+        "Spoofing de DNS", 
+        "Sniffing de tráfico"],
+      "answer": "VPN segura"
+    },
+    {
+      "question": "¿Cómo se puede mitigar un ataque de intermediario?",
+      "options": [
+        "Usar protocolos de comunicación en texto plano.",
+        "Usar cifrado HTTPS para todas las comunicaciones web.",
+        "Deshabilitar el firewall.",
+        "Utilizar software antivirus únicamente."
+      ],
+      "answer": "Usar cifrado HTTPS para todas las comunicaciones web."
+    },
+    {
+      "question": "¿Qué es el inicio de sesión único (SSO)?",
+      "options": [
+        "Un método que permite a los usuarios ingresar con una sola contraseña.",
+        "Un método para enviar correos electrónicos fraudulentos que parecen provenir de fuentes legítimas.",
+        "Un sistema de autenticación que permite a un usuario acceder a múltiples aplicaciones con una sola autenticación.",
+        "Un software de monitoreo de red."
+      ],
+      "answer": "Un sistema de autenticación que permite a un usuario acceder a múltiples aplicaciones con una sola autenticación."
+    },
+    {
+      "question": "¿Cuál es una ventaja del inicio de sesión único (SSO)?",
+      "options": [
+        "No requiere autenticación en absoluto.", 
+        "Mejora la experiencia del usuario al reducir la cantidad de contraseñas que deben recordar.", 
+        "Permite múltiples inicios de sesión en cada aplicación.", 
+        "Mayor complejidad en la gestión de contraseñas."],
+      "answer": "Mejora la experiencia del usuario al reducir la cantidad de contraseñas que deben recordar."
+    },
+    {
+      "question": "¿Qué riesgo puede estar asociado con el uso de SSO?",
+      "options": [
+        "Reducción de la eficiencia del usuario.", 
+        "42", 
+        "Aumento del uso de contraseñas.", 
+        "Si una cuenta se ve comprometida, el atacante podría tener acceso a múltiples aplicaciones"],
+      "answer": "Si una cuenta se ve comprometida, el atacante podría tener acceso a múltiples aplicaciones"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un beneficio de usar un administrador de contraseñas?",
+      "options": [
+        "No ofrece ningún tipo de protección.",
+        "Permite compartir contraseñas de manera insegura.",
+        "Requiere usar la misma contraseña para todas las cuentas.",
+        "Facilita la gestión de contraseñas fuertes para cada cuenta."
+      ],
+      "answer": "Facilita la gestión de contraseñas fuertes para cada cuenta."
+    }
+  ]

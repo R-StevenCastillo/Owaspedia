@@ -1,0 +1,94 @@
+[
+    {
+      "question": "¿Qué es una criptomoneda?",
+      "options": [
+        "Una forma de moneda física con respaldo estatal.",
+        "Una moneda digital que usa criptografía para proteger las transacciones y no tiene una autoridad central.",
+        "Un sistema de puntos canjeables en tiendas online.",
+        "Una forma de moneda en papel que se puede intercambiar digitalmente."
+      ],
+      "answer": "Una moneda digital que usa criptografía para proteger las transacciones y no tiene una autoridad central."
+    },
+    {
+      "question": "¿Cuál es la función principal de la tecnología blockchain?",
+      "options": [
+        "Proteger la privacidad de los usuarios.", 
+        "Facilitar el registro y seguimiento de transacciones de manera descentralizada.", 
+        "Crear una autoridad central para emitir monedas.", 
+        "Permitir la creación de monedas físicas."],
+      "answer": "Facilitar el registro y seguimiento de transacciones de manera descentralizada."
+    },
+    {
+      "question": "¿Cómo se puede rastrear una transacción realizada con criptomonedas?",
+      "options": [
+        "Mediante el uso de un registro centralizado.", 
+        "Usando herramientas de análisis de IP.", 
+        "A través del blockchain, que registra todas las transacciones.", 
+        "A través de un intermediario bancario."],
+      "answer": "A través del blockchain, que registra todas las transacciones."
+    },
+    {
+      "question": "¿Qué herramienta se usa para crear una imagen forense bit a bit de un dispositivo de almacenamiento?",
+      "options": [
+        "Autopsy", 
+        "FTK Imager", 
+        "Blockchain Explorer", 
+        "Google Search"],
+      "answer": "FTK Imager"
+    },
+    {
+      "question": "¿Cuál es una de las principales ventajas de usar FTK Imager para el análisis forense?",
+      "options": [
+        "Proporciona acceso remoto al dispositivo original.", 
+        "Permite analizar datos en tiempo real.", 
+        "Mantiene la integridad del dispositivo original al analizar una copia bit a bit.", 
+        "Genera informes automáticos sobre la actividad del dispositivo."],
+      "answer": "PMantiene la integridad del dispositivo original al analizar una copia bit a bit."
+    },
+    {
+      "question": "¿Qué herramienta de análisis digital forense es conocida por su facilidad de uso y plugins específicos?",
+      "options": [
+        "BFTK Imager",
+        "Google Images",
+        "Autopsy",
+        "WThatsthem.com"
+      ],
+      "answer": "Autopsy"
+    },
+    {
+      "question": "¿Qué técnica utiliza la geolocalización basada en IP para determinar la ubicación de un dispositivo?",
+      "options": [
+        "Mecanismo de búsqueda por imagen", 
+        "Registro de transacciones blockchain.", 
+        "Base de datos que asocia direcciones IP con ubicaciones geográficas.", 
+        "Análisis forense de almacenamiento."],
+      "answer": "Base de datos que asocia direcciones IP con ubicaciones geográficas."
+    },
+    {
+      "question": "¿Cuál es la función de la herramienta Thatsthem.com?",
+      "options": [
+        "Crear imágenes forenses bit a bit.", 
+        "Buscar información sobre el origen de imágenes.", 
+        "VVerificar la autenticidad de correos electrónicos y vincularlos con registros públicos.", 
+        "Analizar transacciones de criptomonedas."],
+      "answer": "Verificar la autenticidad de correos electrónicos y vincularlos con registros públicos."
+    },
+    {
+      "question": "¿Qué tipo de información se puede obtener utilizando la búsqueda inversa de imágenes en Google?",
+      "options": [
+        "Información sobre direcciones IP.", 
+        "La ubicación exacta de un lugar o más detalles sobre una imagen específica.", 
+        "Detalles sobre transacciones de criptomonedas.", 
+        "Datos de contactos de correos electrónicos."],
+      "answer": "La ubicación exacta de un lugar o más detalles sobre una imagen específica."
+    },
+    {
+      "question": "¿Qué es OSINT y cuál es su propósito principal?",
+      "options": [
+        "Un tipo de criptomoneda que se usa para proteger información.", 
+        "Un software para crear imágenes digitales de alta calidad.", 
+        "Una herramienta específica para rastrear direcciones IP.", 
+        "Una metodología para recopilar y analizar información pública para convertirla en conocimiento útil."],
+      "answer": "Una metodología para recopilar y analizar información pública para convertirla en conocimiento útil."
+    }
+  ]

@@ -1,0 +1,341 @@
+@font-face {
+    font-family: Cooper;
+    src: url(fonts/Cooper-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: Cooper-Black;
+    src: url(fonts/Cooper-Black.otf);
+  }
+  
+  :root {
+    --header-deco-main2: #6fbffc;
+    --header-deco-main: #2b75d6;
+    --header-deco-blue: #45d1f7;
+    --header-deco-purple: #6d2feb;
+    --header-deco-green: #7bed24;
+    --header-deco-yellow: #ffee33;
+    --header-deco-orange: #fa7020;
+    --header-deco-red: #fa2d67;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.3em;
+    font-size: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Cooper;
+    letter-spacing: .02em;
+    line-height: 1em;
+  }
+  
+  h1 {
+    font-family: Cooper-Black;
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+
+  header {
+    background-color: black;
+  }
+  
+  .header {
+    position: relative;
+    margin: auto;
+  }
+  
+  .style-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .anim-layer {
+    animation: headerAnim 1.5s ease-out forwards;
+  }
+  
+  .style-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: 0;
+  }
+  
+  .skew {
+    transform: skewY(-10deg);
+  }
+  
+  .red {
+    background-color: var(--header-deco-red);
+  }
+  
+  .orange {
+    background-color: var(--header-deco-orange);
+  }
+  
+  .yellow {
+    background-color: var(--header-deco-yellow);
+  }
+  
+  .green {
+    background-color: var(--header-deco-green);
+  }
+  
+  .purple {
+    background-color: var(--header-deco-purple);
+  }
+  
+  .blue {
+    background-color: var(--header-deco-blue);
+  }
+  
+  .blue-main {
+    background: linear-gradient(var(--header-deco-main2) 5%, var(--header-deco-main));
+    overflow: hidden;
+  }
+  
+  .box-shadow {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  }
+  
+  .header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .header .img-wrapper {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    width: min(100% - 20px, 400px);
+  }
+  
+  .header .img-wrapper img {
+    width: 100%;
+    display: block;
+  }
+  
+  .img-wrapper h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    z-index: 2;
+  }
+  
+  /* vignette for header img because it's too light */
+  .header .img-wrapper::after {
+    content: "";
+    display: block;
+    width: 150%;
+    height: 150%;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    left: -25%;
+  }
+  
+  .about-me {
+    width: min(100vw - 40px, 600px);
+    padding: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-color: white;
+  }
+  
+  .about-me h2 {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  a.fa {
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+  }
+  
+  .battle-section .wrapper {
+    width: min(100% - 100px, 1400px);
+    margin-inline: auto;
+    margin-block: 80px;
+  }
+  
+  .battle-section h2 {
+    margin-bottom: 35px;
+  }
+  
+  .battles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr));
+    gap: 40px;
+  }
+  
+  .battle-div img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .battle-info {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .battle-info .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .battle-info h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .battle-info a {
+    font-size: 24px;
+  }
+  
+  .battle-info h4 {
+    font-size: 18px;
+    color: rgba(0,0,0,0.75);
+    text-indent: -1ch;
+    margin-bottom: 10px;
+  }
+  
+  .battle-info p {
+    font-size: 16px;
+  }
+  
+  .footer-style {
+    height: 8px;
+  }
+  
+  .footer {
+    background: linear-gradient(var(--header-deco-main), var(--header-deco-main2));
+    color: white;
+  }
+  
+  .footer .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .wrapper>* {
+    padding: 60px 40px;
+  }
+  
+  .social-icons.footer-icons {
+    color: black;
+    justify-content: flex-start;
+  }
+  
+  .contact-info p, .contact-info h2 {
+    margin-bottom: 15px;
+  }
+  
+  .footer .img-wrapper {
+    width: min(100vw - 20px, 550px);
+  }
+  
+  .footer img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+  }
+  
+  @keyframes headerAnim {
+    from {
+      transform: skewY(0deg);
+    }
+    to {
+      transform: skewY(-10deg);
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .img-wrapper h1 {
+      font-size: 48px;
+      text-align: left;
+      left: 15px;
+    }
+    
+    .about-me {
+      margin: auto;
+    }
+    
+    .footer .wrapper {
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .contact-info {
+      text-align: center;
+    }
+    
+    .social-icons.footer-icons {
+      justify-content: center;
+    }
+    
+    .footer .img-wrapper {
+      width: calc(100vw - 40px);
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1100px) {
+    .header .wrapper {
+      display: block;
+    }
+    
+    .header .img-wrapper {
+      width: 350px;
+      height: 350px;
+      float: left;
+      margin-right: 1rem;
+    }
+    
+    .about-me {
+      margin-top: 60px;
+      width: min(100vw - 40px, 650px);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .header .wrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .about-me {
+      margin: 0;
+    }
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="../css/actividad.style.css" />
+    <script src="../js/actividad.script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h2>Actividad 1 - Introduccion a Ciberseguridad | Repuestas Correctas: <span id="score">0</span></h2>
+        <!-- <h2>High Score: <span id="high-score">0</span></h2> -->
+      </div>
+      <div id="start-page">
+        <button id="start-btn">Iniciar Actividad</button>
+        <button id="highscore-btn">Ver tu resultado</button>
+      </div>
+  
+      <div id="quiz-container" style="display: none">
+        <div id="progress-bar-text">0%</div>
+        <div id="progress-bar">
+          <div id="progress-bar-fill"></div>
+        </div>
+        <p id="message"></p>
+        <h2 id="question"></h2>
+        <button class="option-btn" id="btn0"></button>
+        <button class="option-btn" id="btn1"></button>
+        <button class="option-btn" id="btn2"></button>
+        <button class="option-btn" id="btn3"></button>
+  
+        <button id="next-btn" style="display: none">Siguiente pregunta</button>
+      </div>
+      <div id="score-container" style="display: none">
+        <h2>Nota Final: <span id="final-score"></span></h2>
+        <h2>Nota mas alta: <span id="final-high-score"></span></h2>
+        <button class="option-btn" onclick="location.href = '/fundamentos-ciberseguridad-capitulo-1'">Regresar al Curso</button>
+      </div>
+      <div id="highscore-page" style="display: none">
+        <h1>Tus Calificaciones</h1>
+        <div id="highscores"></div>
+      </div>
+  
+</body>
+</html>
